@@ -1,27 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
+    <title>zobinHood</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
 
-<body>
-    <div class="container">
-        <div id="app">Render Header here</div>
-        <div id="patrick-app">Render Facts</div>
-        <div id="sayer-app">Render Zestimate</div>
-        <div id="root">Monthly</div>
-        <div id="inna-service">Pictures</div>
+  <body>
+    <img src="background.png" id="background" />
+    <div id="darkness" ></div>
+
+    <div>
+      <div class="containeri">
+
+        <div class="left">
+          <div id="inna-app">Render Pictures (Inna's) to the left</div>
+        </div>
+
+        <div class="stationary-header">
+          <div id="app">Render Header (Kyle's) here</div>
+          <div class="content">
+            <div id="patrick-app">Render Facts & Figures (Patrick's) here</div>
+            <div id="sayer-app">Render Zestimate (Sayer's) here</div>
+            <div id="root">Render MonthlyCost (Mine) here</div>
+          </div>
+        </div>
+        <button id="button">x</button>
     </div>
 
+    <script src="/styled-components"></script>
     <script src="/Kyle-service/bundle.js"></script>
     <script src="/Patrick-service/bundle.js"></script>
     <script src="/Sayer-service/bundle.js"></script>
     <script src="/Matthew-service/bundle.js"></script>
     <script src="/Inna-service/bundle.js"></script>
-</body>
+
+  </body>
 
 </html>
